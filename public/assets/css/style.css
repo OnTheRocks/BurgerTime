@@ -1,0 +1,48 @@
+body {
+  background-image: url("../img/burgers.jpg");
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center -900px;
+  background-size: cover; 
+}
+
+.jTitle {
+  margin: 0 auto;
+  text-align: center;
+  border: darkgreen thin solid;
+  border-bottom: none;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, .7);
+}
+
+.lead {
+  text-align: left;
+  background-color: rgba(255, 255, 255, .7);
+  border: darkgreen thin solid;
+  border-top: none;
+  padding-left: 10px;
+}
+
+.three {
+  border: darkgreen thin solid;
+  background-color: rgba(255, 255, 255, .7); 
+}
+
+h6 {
+  text-align: center;
+}
+
+.burgerButton {
+ float: right;
+ border: none;
+ background-color: rgba(255, 255, 255, 0);
+}
+
+.burgerDevoured {
+  text-align: right;
+}
+
+#addABurger {
+  margin:150px 0 0 10px; 
+}

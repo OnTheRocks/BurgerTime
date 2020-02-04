@@ -1,0 +1,61 @@
+  <body>
+
+
+    <div id="main" class="container">
+      <div class="jumbotron pt-2" style="background-color: rgba(255, 255, 255, .5);">
+        <h1 class="jTitle display-4">Burger Time!</h1>
+        <p class="lead">Please pick a Burger to devour.  You can also add a Burger of your choice if you don't see anything you like or it's already been devoured.</p>
+        <hr class="my-4">
+        
+        <div class="row">
+          
+          
+          <!-- To Eat column ------->
+          <div class="three col-4" >
+            <div id="bList" class="container"></div>
+              <h5>Ready to Eat:</h5>
+              {{#each burgers}}
+              {{#unless this.devoured}}
+                <div>
+                  <form action="/burgers/{{this.id}}?_method=PUT" method="POST">
+                    {{this.burger_name}}<button type="submit" class="burgerButton fas fa-hamburger"></button>
+                  </form>
+                </div>
+              {{/unless}}
+            {{/each}}
+          </div>
+
+        <!---- Middle  Column -------------->
+          <div class="col-4">
+          <h6>Click on the <i class="fas fa-hamburger"></i> to devour your Burger.</h6>
+            <div id="addABurger" class="row col-lg-offset-6">
+          <div class="">
+            <form class="burgerForm" action="/burgers" method="POST">
+              <input type="text" id="name" name="burger_name" placeholder="What's your Burger?">
+              <button type="submit" class="btn btn-success btn-sm">Add The Burger</button>
+            </form>
+          </div>
+          </div>
+          </div>
+
+        <!------ Devoured "Add a burger" column --------------->
+          <div class="three col-4">
+            <div id="devoured" class="container">
+              <h5>Devoured:</h5>
+                {{#each burgers}}
+                {{#if this.devoured}}
+                  <div class='burgerDevoured'>
+                    <div>
+                    {{this.burger_name}}
+                    </div>
+                  </div>
+                {{/if}}
+                {{/each}}
+            </div>            
+          </div>
+        </div>
+      </div>     
+    </div>
+  </body>
+
+
