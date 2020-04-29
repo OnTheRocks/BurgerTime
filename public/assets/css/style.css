@@ -6,6 +6,9 @@ body {
   background-position: center -900px;
   background-size: cover; 
 }
+.container {
+  padding-top: 65px;
+}
 
 .jTitle {
   margin: 0 auto;
