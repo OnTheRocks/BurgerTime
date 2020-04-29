@@ -1,12 +1,12 @@
 body {
   background-image: url("../img/burgers.jpg");
   min-width: 100%;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-attachment: fixed;
   background-position: center -900px;
   background-size: cover; 
 }
-.container {
+#main {
   padding-top: 65px;
 }
 
