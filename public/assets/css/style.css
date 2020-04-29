@@ -1,18 +1,18 @@
 body {
   background-image: url("../img/burgers.jpg");
   min-width: 100%;
-  /* background-repeat: no-repeat; */
   background-attachment: fixed;
   background-position: center -900px;
   background-size: cover; 
 }
 
 #main {
-  padding-top: 65px;
+  padding-top: 100px;
 }
 
 .jumbotron {
   padding-bottom: 10px !important;
+  margin
 }
 
 .jTitle {
@@ -57,7 +57,6 @@ h6 {
 }
 
 .footer {
-  /* padding-top: 100px; */
   text-align: center;
   margin: 0;
 }
