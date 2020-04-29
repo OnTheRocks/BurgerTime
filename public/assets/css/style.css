@@ -5,8 +5,8 @@ body {
   background-attachment: fixed;
   background-position: center -900px;
   background-size: cover; 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
+
 #main {
   padding-top: 65px;
 }
@@ -26,6 +26,7 @@ body {
   border: darkgreen thin solid;
   border-top: none;
   padding-left: 10px;
+
 }
 
 .three {
@@ -49,4 +50,10 @@ h6 {
 
 #addABurger {
   margin:150px 0 0 10px; 
+}
+
+.footer {
+  /* padding-top: 100px; */
+  text-align: center;
+  margin: 0;
 }
