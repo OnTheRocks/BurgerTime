@@ -38,6 +38,9 @@ See the layout of the app below.
 - STEP 2:  When add burger is cliked the burger gets added to left side of screen and a Burger icon button renders with it to "DEVOUR IT"
 
 - STEP 3: clicking on the Burger icon will sent it to the right side of the screen into the devourd column.
+
+*![app](/public/assets/images/Capture.PNG " ") 
+
  
 ## Coding Languages Used
 * HTML
