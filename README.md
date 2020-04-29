@@ -29,3 +29,13 @@ As a burger lover, I would to create my own burgers, and be able to devour them 
 * Make sure you are in the main folder when running the code on the command line.
 * This app allows the user to add as many burgers as they want to a list on the left hand side of screen.  If they so choose they can devour those burgers, which moves them to the right hand side of the screen.
 
+## How To Use
+See the layout of the app below.
+
+
+- STEP 1: To begin one types in a burger into text area and clicks "Add The Burger" button.  
+
+- STEP 2:  When add burger is cliked the burger gets added to left side of screen and a Burger icon button renders with it to "DEVOUR IT"
+
+- STEP 3: clicking on the Burger icon will sent it to the right side of the screen into the devourd column.
+ 
