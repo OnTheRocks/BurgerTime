@@ -11,6 +11,10 @@ body {
   padding-top: 65px;
 }
 
+.jumbotron {
+  padding-bottom: 10px !important;
+}
+
 .jTitle {
   margin: 0 auto;
   text-align: center;
