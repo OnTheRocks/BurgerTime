@@ -78,3 +78,4 @@ See the layout of the app below.
 
 
 ## Known Issues With Code
+* Currently, if you click the Add The Burger button without entering in a burger, it will add a blank entry into the left burger column.
