@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   background-position: center -900px;
   background-size: cover; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 #main {
   padding-top: 65px;
