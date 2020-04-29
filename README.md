@@ -39,7 +39,7 @@ See the layout of the app below.
 
 - STEP 3: clicking on the Burger icon will sent it to the right side of the screen into the devourd column.
 
-*![app](/public/assets/images/Capture.PNG " ") 
+![app](/public/assets/img/Capture.PNG " ") 
 
  
 ## Coding Languages Used
